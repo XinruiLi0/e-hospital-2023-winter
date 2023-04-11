@@ -940,7 +940,7 @@ app.get('/patientscardiovascular', function(req, res) {
 
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://ehuser:ehuser@e-hospital.mgq2xgp.mongodb.net/?retryWrites=true&w=majority"
+const uri = "mongodb+srv://ehuser:ehuser@ehospital.7enczr6.mongodb.net/?retryWrites=true&w=majority"
 const client = new MongoClient(uri);
 
 // API to fetch data from MongoDB, (Sayyed Hossein Sadat Hosseini, Mohammad Rezaei, AliReza SabzehParvar) GroupNumber, Meidcal Innovation and Design, Winter-2023 */
